@@ -38,7 +38,6 @@
 //   }
 // }
 
-
 // Write a program to identify the Largest number in the given array.
 
 // var a = [24, 53, 78, 91, 12];
@@ -57,7 +56,6 @@
 
 // document.write("</br><b> The Largest number is </b> :  " + largest);
 
-
 // Write a program to identify the smallest number in the given array.
 
 // var a = [24, 53, 78, 91, 12];
@@ -74,11 +72,66 @@
 
 // document.write("</br> <b> The Smallest Number is </b> :  " + smallest);
 
-// Write a program to print multiples of 2 ranging 1 to 200. 
+// Write a program to print multiples of 2 ranging 1 to 200.
 
 // for(var i=1; i<=100; i++){
-    
-//     var res = 2*i;
+
+//     var res = 5*i;
 
 //     document.write(res + "  ")
 // }
+
+// const arr = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// for (let i = 0; i < arr.length; i++) {
+//   // document.write(arr[i]);
+
+//   for (let j = 0; j < arr[i].length; j++) {
+//     document.write(arr[i][j]);
+//   }
+
+//   document.write("<br>");
+// }
+
+// var arr1 = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// var arr2 = [
+//   [11, 22, 33],
+//   [44, 55, 66],
+//   [77, 88, 99],
+// ];
+
+// var arr3 = [];
+
+// for(var i=0; i<arr1.length; i++){
+
+//     document.write(arr1[0] + arr2[0]);
+    
+//     for(var j=0; j<arr2.length; j++){
+    
+        
+    
+//     }
+
+// }
+
+let arr = [1,3,4,67,87,65,43];
+
+arr = arr.map((eachItem, index) => {
+    console.log(eachItem, index);
+    if(eachItem % 3 === 0) {
+        return 0;
+    }else {
+        return eachItem;
+    }
+})
+
+console.log(arr);
