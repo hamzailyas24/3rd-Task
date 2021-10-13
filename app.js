@@ -38,9 +38,6 @@
 //   }
 // }
 
-// if (b !== "Available") {
-//     document.write("We're sorry not available in our bakery ");
-// }
 
 // Write a program to identify the Largest number in the given array.
 
