@@ -113,25 +113,33 @@
 
 // for(var i=0; i<arr1.length; i++){
 
-//     document.write(arr1[0] + arr2[0]);
-    
-//     for(var j=0; j<arr2.length; j++){
-    
-        
-    
+//     let arr4 = []
+
+//     for(var j=0; j <arr2.length; j++){
+
+//         arr4.push(arr1[i][j] + arr2[i][j])
+
 //     }
 
+//     arr3.push(arr4);
+    
 // }
 
-let arr = [1,3,4,67,87,65,43];
+// document.write(arr3);
 
-arr = arr.map((eachItem, index) => {
-    console.log(eachItem, index);
-    if(eachItem % 3 === 0) {
-        return 0;
-    }else {
-        return eachItem;
-    }
-})
+// let arr = [1, 3, 4, 67, 87, 65, 43];
 
-console.log(arr);
+// arr = arr.map((eachItem, index) => {
+//   console.log(eachItem, index);
+//   if (eachItem % 3 === 0) {
+//     return 0;
+//   } else {
+//     return eachItem;
+//   }
+// });
+
+// console.log(arr);
+
+// CLASS 5
+
+// 2 hours debate about design
