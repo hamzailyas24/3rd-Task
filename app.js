@@ -97,6 +97,42 @@
 //   document.write("<br>");
 // }
 
+function addMatrix() {
+
+    var m1One = document.getElementById("box1val1");
+    var m1Two = document.getElementById("box1val2");
+    var m1Three = document.getElementById("box1val3");
+    var m1One = document.getElementById("box1val4");
+    var m1One = document.getElementById("box1val5");
+    var m1One = document.getElementById("box1val6");
+    var m1One = document.getElementById("box1val7");
+    var m1One = document.getElementById("box1val8");
+    var m1One = document.getElementById("box1val9");
+
+    var m1One = document.getElementById("box2val1");
+    var m1One = document.getElementById("box2val2");
+    var m1One = document.getElementById("box2val3");
+    var m1One = document.getElementById("box2val4");
+    var m1One = document.getElementById("box2val5");
+    var m1One = document.getElementById("box2val6");
+    var m1One = document.getElementById("box2val7");
+    var m1One = document.getElementById("box2val8");
+    var m1One = document.getElementById("box2val9");
+
+    var m1One = document.getElementById("box3val1");
+    var m1One = document.getElementById("box3val2");
+    var m1One = document.getElementById("box3val3");
+    var m1One = document.getElementById("box3val4");
+    var m1One = document.getElementById("box3val5");
+    var m1One = document.getElementById("box3val6");
+    var m1One = document.getElementById("box3val7");
+    var m1One = document.getElementById("box3val8");
+    var m1One = document.getElementById("box3val9");
+
+}
+
+
+
 // var arr1 = [
 //   [1, 2, 3],
 //   [4, 5, 6],
